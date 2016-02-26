@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 hr {
@@ -42,14 +42,17 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
+
+
+
 
 .bg-primary {
     background-color: #000306;
