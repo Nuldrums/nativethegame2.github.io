@@ -513,6 +513,12 @@ body {
 }
 
 
-			div.row > div > div.row {
-				margin-bottom: 15px;n
-			}
+div.row > div > div.row {
+    margin-bottom: 15px;
+
+}
+
+#rowThing {
+    width: 100%;
+    margin: 0 auto;
+}
