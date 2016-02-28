@@ -468,6 +468,10 @@ fieldset[disabled] .btn-primary.active {
     border-left: 1px dotted;
 }
 
+#nativePictures {
+
+}
+
 
 
 ::-moz-selection {
@@ -491,7 +495,24 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
-
 body {
     webkit-tap-highlight-color: #222;
 }
+
+
+
+.container-fluid {
+    text-align: center;
+    background-color: #000306; 
+    color: #fff;
+}
+
+#pop {
+    color: #fff;
+
+}
+
+
+			div.row > div > div.row {
+				margin-bottom: 15px;n
+			}
