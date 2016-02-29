@@ -52,8 +52,6 @@ p {
 }
 
 
-
-
 .bg-primary {
     background-color: #000306;
 }
@@ -80,11 +78,18 @@ aside {
 }
 
 #contact {
-    background-image: url(../img/bushes.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    widows: 100%;
     
+    background-image: url(../img/bushes.jpg);
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .navbar-default {
@@ -441,19 +446,12 @@ fieldset[disabled] .btn-primary.active {
     padding: 15px 30px;
 }
 
-#links {
-    
-    margin: 0 auto;
-    width: 56%;
-    padding: 2px;
-    float: right;
-
+.links {
+    margin: 2px 2px 2px 2px;
 }
 
 #twitchButton {
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;   
 }
 
 #twitterButton {
@@ -463,13 +461,9 @@ fieldset[disabled] .btn-primary.active {
 #me {
     float: right;
     margin: 2px 2px 2px 2px;
-    width: 10%;
+    width: 20%;
     text-align: center;
     border-left: 1px dotted;
-}
-
-#nativePictures {
-
 }
 
 
@@ -512,6 +506,9 @@ body {
 
 }
 
+#UC {
+    color: black;
+}
 
 div.row > div > div.row {
     margin-bottom: 15px;
